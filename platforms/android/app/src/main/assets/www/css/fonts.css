@@ -1,0 +1,56 @@
+@font-face {
+  font-family: 'MuseoSans100';
+  src: url('../fonts/museosans-100.eot');
+  src: url('../fonts/museosans-100.eot') format('embedded-opentype'), 
+  url('../fonts/museosans-100.woff') format('woff'), 
+  url('../fonts/museosans-100.ttf') format('truetype'), 
+  url('../fonts/museosans-100.svg#MuseoSans100') format('svg');
+}
+@font-face {
+  font-family: 'MuseoSans300';
+  src: url('../fonts/museosans-300.eot');
+  src: url('../fonts/museosans-300.eot') format('embedded-opentype'), 
+  url('../fonts/museosans-300.woff') format('woff'), 
+  url('../fonts/museosans-300.ttf') format('truetype'), 
+  url('../fonts/museosans-300.svg#MuseoSans300') format('svg');
+}
+@font-face {
+  font-family: 'MuseoSans500';
+  src: url('../fonts/museosans-500.eot');
+  src: url('../fonts/museosans-500.eot') format('embedded-opentype'), 
+  url('../fonts/museosans-500.woff') format('woff'), 
+  url('../fonts/museosans-500.ttf') format('truetype'),
+  url('../fonts/museosans-500.svg#MuseoSans500') format('svg');
+}
+
+@font-face {
+  font-family: 'Allura';
+  src: url('../fonts/Allura-Regular.eot');
+  src: url('../fonts/Allura-Regular.eot') format('embedded-opentype'), 
+  url('../fonts/Allura-Regular.woff') format('woff'), 
+  url('../fonts/Allura-Regular.ttf') format('truetype'), 
+  url('../fonts/Allura-Regular.svg#Allura') format('svg');
+}
+@font-face {
+    font-family: 'SharpSans';
+    src: url('../fonts/SamsungSharpSans.woff2') format('woff2'),
+        url('../fonts/SamsungSharpSans.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SharpSansBold';
+    src: url('../fonts/SamsungSharpSans-Bold.woff2') format('woff2'),
+        url('../fonts/SamsungSharpSans-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SharpSansMedium';
+    src: url('../fonts/SamsungSharpSans-Medium.woff2') format('woff2'),
+        url('../fonts/SamsungSharpSans-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}

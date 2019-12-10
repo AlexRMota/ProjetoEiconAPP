@@ -1,0 +1,107 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Eicon</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/animate.css" rel="stylesheet" type="text/css" media="all" />
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <script src="js/funcoes.js"></script>
+    <script>
+        function onLoad() {
+            document.addEventListener("deviceready", onDeviceReady, true);
+        }
+
+        function onDeviceReady() {
+            document.addEventListener("backbutton", onBackKeyDown, false);
+        }
+    </script>
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</head>
+
+<body onload="onLoad();">
+
+    <!-- menu -->
+    <div class="menuApp esconde animated2 slideInLeft2" id="menuApp">
+        <div>
+            <div class="aliDir"><img src="images/x.svg" class="tamX" id="tamX"></div>
+            <ul class="menuAppLista">
+                <li id="botHome">Home</li>
+                <li>A Eicon</li>
+                <li>Produtos</li>
+                <li>Serviços</li>
+                <li id="sair">Sair</li>
+                <ul>
+        </div>
+    </div>
+    <!-- menu -->
+
+    <!-- tela 1 -->
+    <div class="geral telaApp1 animated fadeIn" id="telaApp1">
+        <div class="menuSvgBox">
+            <img src="images/menu.svg" id="menuSvg">
+        </div>
+        <div class="container" style="padding-right: 0px; padding-left: 0px;">
+            <img src="images/logo.png" border="0" class="logoGeral animated fadeInDown">
+            <br>
+            <div class="col-xs-12 central">
+                <div id="bot1" data-box="telaApp2">Entrar</div>
+            </div>
+        </div>
+    </div>
+    <!-- tela 1 -->
+
+    <!-- tela 2 -->
+    <div class="geral telaApp2 esconde animated fadeIn" id="telaApp2">
+        <div class="menuSvgBox">
+            <img src="images/menu.svg" id="menuSvg">
+        </div>
+        <div class="boxTitulo">
+            <div class="boxTituloL">
+            </div>
+            <div class="boxTituloR">
+
+            </div>
+        </div>
+        <div class="container" style="margin-top:40px;">
+            <div class="boxLogin">
+                <img src="images/logo_g.png" border="0" style="width:70%; margin:0px auto; display:block;">
+                <div style="margin:22px 0px;">
+                    Login:
+                    <br>
+                    <input type="input" name="nome" class="inputgeral1">
+                </div>
+                <div style="margin:22px 0px;">
+                    Senha:
+                    <br>
+                    <input type="password" name="endereco" class="inputgeral1">
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <a href="#null" class="botDefault2p" id="bot3" data-box="telaApp1">Entrar</a>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+    </div>
+    <!-- tela 2 -->
+
+    <div class="rodape" id="rodape">
+        Teste FrontEnd - Eicon
+    </div>
+
+</body>
+
+</html>
